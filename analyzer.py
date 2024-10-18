@@ -3,7 +3,7 @@
 
 '''
  Analisor léxico baseado em busca por regex
- Autor: Francisco Alberto Alves Ferreira Junior
+ Autor: Francisco Ferreira
 
  Os executáveis desse código estão na pasta "linux_executavel/" e "windows_executavel/"
 
