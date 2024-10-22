@@ -27,7 +27,7 @@ class Analyzer:
         # Lista de regexes
         self.regex_list = [
             ('LINE_COMMENT', r'//(.)*\n'),
-            ('BLOCK_COMMENT', r'(/\*)(.)*(\*/)'),
+            ('BLOCK_COMMENT', r'/\*[\s\S]*?\*/'),
             ('STRING', r'\"([^\"\'])*\"'), # Exclui os caracteres (ASCII 34 aspas simples, ASCII 39 aspas simples) 
             ('CHARACTER', r'\'([^\"\'])\''), # Exclui os caracteres (ASCII 34 aspas simples, ASCII 39 aspas simples) 
             ('KEY_WORD', r'(variables|methods|constants|class|return|empty|main|if|then|else|while|for|read|write|integer|float|boolean|string|true|false|extends)'),
